@@ -34,6 +34,7 @@ const TabsLayout = () => {
     return (
         <>
             <Tabs
+
                 screenOptions={{
                     tabBarItemStyle: { minWidth: 80 },
                     tabBarShowLabel: false,
@@ -41,7 +42,7 @@ const TabsLayout = () => {
                     tabBarInactiveTintColor: "#CDCDE0",
                     tabBarStyle: {
                         backgroundColor: "#161622",
-                        borderTopWidth: 1,
+                        borderTopWidth: 0,
                         borderTopColor: "#232523",
                         height: 84,
                         paddingTop: 16,
@@ -93,7 +94,7 @@ const TabsLayout = () => {
                         )
                     }}
                 />
-            </Tabs>
+            </Tabs >
         </>
     )
 }

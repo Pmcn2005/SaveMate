@@ -7,7 +7,7 @@ const Index = () => {
     return (
         <View className="flex-1 items-center justify-center ">
             <Text className="text-3xl font-pblack">SaveMate</Text>
-            <Link href="/home" >Go to home</Link>
+            <Link href="/home" className=''>Go to home</Link>
 
             <StatusBar backgroundColor='#161622' style='light' />
         </View>
