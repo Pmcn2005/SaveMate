@@ -1,7 +1,6 @@
 import { View, Text, Image } from 'react-native'
 import { Tabs, Redirect } from 'expo-router'
-import { SvgXml } from 'react-native-svg';
-import Icon from 'react-native-vector-icons/Feather';
+import Icon from 'react-native-vector-icons/Feather'
 
 import React from 'react'
 
